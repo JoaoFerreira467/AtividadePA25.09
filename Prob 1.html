@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Problema 1</title>
+</head>
+<body>
+    <h1>Problema 1</h1>
+    <div id = "prob_1"> </div>
+
+            <script>
+                let numero_1 = Number(prompt ("Digite o primeiro numero:"));
+                let numero_2 = Number(prompt ("Digite o segundo numero: "));
+                let resultado
+                
+                
+                if (numero_1 >= numero_2){
+                    resultado = "Primeiro numero é maior e o segundo é menor."
+                }
+                else 
+                resultado = "Segundo numero é maior e o primeiro é menor."
+
+
+                document.getElementById("prob_1").innerHTML= "O " + resultado 
+            </script>
+
+</body>
+</html>

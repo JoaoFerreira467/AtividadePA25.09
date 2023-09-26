@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Problema 2</title>
+    </head>
+    <body>
+        <h1>Problema 2</h1>
+        <div id="prob_2"> </div>
+    
+                <script>
+                    let pessoa1 = prompt("Digite o nome da primeira pessoa: ");
+                    let pessoa2 = prompt("Digite o nome da segunda pessoa: ");
+                    let peso_pessoa1 = Number(prompt("Digite o peso da primeira pessoa: "));
+                    let peso_pessoa2 = Number(prompt("Digite o peso da segunda peessoa: "));
+                    let resultado_peso="";
+                    let nome_pessoa="";
+
+                
+                    if(peso_pessoa1>=peso_pessoa2){
+                    resultado_peso = peso_pessoa1
+                    nome_pessoa = pessoa1
+                    }
+                    else {
+                    resultado_peso = peso_pessoa2
+                    nome_pessoa = pessoa2
+                    }
+                                    
+                    document.getElementById("prob_2").innerHTML= "A Pessoa " + nome_pessoa + "é mais pesada por pesar " + resultado_peso + " Kg.";
+                </script>
+    
+    </body>
+    </html>

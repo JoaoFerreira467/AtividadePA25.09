@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Problema 3</title>
+</head>
+<body>
+    <div id = "prob_3"></div>
+                <script>
+                        let pessoa1 = prompt ("Digite o nome da primeira pessoa: "); 
+                        let pessoa2 = prompt ("Digite o nome da segunda pessoa: ");
+                        let dat_nasc1 = Number ( prompt ("Digite o ano de nascimento da primeira pessoa: "));
+                        let dat_nasc2 = Number ( prompt ("Digite o ano de nascimento da segunda pessoa: "));
+                        let idade1;
+                        let idade2;
+
+                        idade1 = 2023-dat_nasc1
+                        idade2 = 2023-dat_nasc2
+
+                        
+                        if (idade1>idade2){
+                            document.getElementById("prob_3").innerHTML= "A pessoa " + pessoa1 + " é mais velha e tem " + idade1 + " anos, e a pessoa " + pessoa2 + " é mais nova e tem " + idade2 + " anos.";
+                        }
+                        else{
+                            document.getElementById("prob_3").innerHTML= "A pessoa " + pessoa2 + " é mais velha e tem " + idade2 + " anos, e a pessoa " + pessoa1 + " é mais nova e tem " + idade1 + " anos.";
+                        }
+
+
+                </script>
+
+</body>
+</html>
